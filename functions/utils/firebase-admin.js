@@ -1,9 +1,9 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./pdares-firebase-adminsdk-mlols-c6f6e7023d.json');
+const serviceAccount = require('route to your service account JSON');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://pdares.firebaseio.com'
+  databaseURL: 'your firebase hosting URL'
 });
 
 const db = admin.firestore();
