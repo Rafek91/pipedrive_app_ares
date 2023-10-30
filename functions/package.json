@@ -1,0 +1,27 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handlePipedriveRequest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pipedrive/app-extensions-sdk": "^0.9.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "body-parser-xml": "^2.0.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.4.0",
+    "firebase-admin": "^11.11.0",
+    "firebase-functions": "^4.4.1",
+    "firebase-tools": "^12.5.4",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2",
+    "pipedrive": "^22.0.2",
+    "xml2js": "^0.6.2"
+  }
+}

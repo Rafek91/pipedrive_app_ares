@@ -1,0 +1,19 @@
+{
+  "name": "localtest",
+  "version": "1.0.0",
+  "description": "test local pd SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ich",
+  "license": "ISC",
+  "dependencies": {
+    "@pipedrive/app-extensions-sdk": "^0.9.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  },
+  "type": "commonjs"
+}
